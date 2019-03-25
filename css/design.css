@@ -1,4 +1,4 @@
-/**/
+
 
 .container {
   display: grid;
@@ -38,19 +38,22 @@
   }
 }
 
-/* .navbar {
-  background-color: white;
-  z-index: 5;
-  
-} */
-
 header {
+  top:0;
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  overflow: hidden;
+  z-index: 5;
+  height: 50px;
+
   grid-area: header;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 20px;
 }
 
 .logo {
