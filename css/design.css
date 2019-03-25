@@ -1,12 +1,24 @@
 /**/
 
 .navbar {
-  display: inline-flex;
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(auto-fill, 300px);
   background-color: aqua;
   width: 100%;
+
   /*z-index: 5; /* always on the top*/
+
+  
+}
+
+.navbar > div {
+  align-self: center; 
+  padding-left: 50px"
 }
 
 .logo {
-  width: 100px;
+  /* width: 100px; */
+  height: 30px;
+  padding: 3px;
 }
