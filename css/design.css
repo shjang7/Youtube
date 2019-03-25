@@ -4,6 +4,7 @@
   display: inline-flex;
   background-color: aqua;
   width: 100%;
+  /*z-index: 5; /* always on the top*/
 }
 
 .logo {
