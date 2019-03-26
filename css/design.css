@@ -79,10 +79,20 @@ header {
   width: 40px;
 }
 
-#author {
+.author-containter {
+  display: grid;
+  grid-template-columns: 30px auto;
   display: block;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-image {
+  float: left;
+}
+
+.comment-text {
+  float: right;
 }
 
 #comment-input {
@@ -123,7 +133,6 @@ aside {
 }
 
 aside p {
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -134,14 +143,25 @@ aside p {
 }
 
 .subletter {
-  color : grey;
+  color: grey;
+}
+
+.recommand-grid-containter {
+  display: inline-grid;
+  grid-template-columns: auto;
+}
+
+.recommand-grid-item {
+  padding: 20px;
 }
 .recommand-video-image {
   float: left;
 }
 
 .recommand-video-text {
-  width: 150px;
+  margin-left: 5px;
+  width: 230px;
+  height: 96px;
   float: right;
 }
 
