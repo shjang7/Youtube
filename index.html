@@ -56,18 +56,20 @@
         <hr />
 
         <div id="author">
-          <img
-            class="header"
-            src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-            alt="author"
-          />
-          <p>Game Of Microverse</p>
-          <p>Published on March 25, 2019</p>
-
-          <a href="/abc">Subscribe to the Channel!</a>
-          <a href="/d">Only in Microverse</a>
-
-          <p>More ...</p>
+          <span>
+            <img
+              class="comment-user-photo"
+              src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
+              alt="author"
+            />
+          </span>
+          <span>
+            <b>Game Of Microverse</b>
+          </span>
+            <p>Published on March 25, 2019</p>
+            <a href="/abc">Subscribe to the Channel!</a>
+            <a href="/d">Only in Microverse</a>
+            <p>More ...</p>
         </div>
 
         <hr />
@@ -76,7 +78,7 @@
           <h4>Comments</h4>
           <form>
             <input
-              id="comment"
+              id="comment-input"
               type="text"
               placeholder="Add a public comment.."
             />
@@ -88,7 +90,7 @@
             <li>
               <span>
                 <img
-                  class="header"
+                  class="comment-user-photo"
                   src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
                 />
               </span>
@@ -100,22 +102,49 @@
                   adipisicing elit. Ratione, officiis dolorum.
                 </p>
                 <i class="fas icon-comment fa-thumbs-up"></i> 5
-                <i class="fas icon-comment fa-thumbs-down"></i> 3 Reply
+                <i class="fas icon-comment fa-thumbs-down"></i> 3
+                <span class="icon-comment"> Reply </span>
               </div>
             </li>
+
             <li>
-              <img
-                class="header"
-                src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-              />Incredible!!<i class="fas fa-thumbs-up"></i
-              ><i class="fas fa-thumbs-down"></i>
+              <span>
+                <img
+                  class="comment-user-photo"
+                  src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
+                />
+              </span>
+              <span>User2</span>
+
+              <div class="comment-text">
+                <p>
+                  It is very fast!! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Ratione, officiis dolorum.
+                </p>
+                <i class="fas icon-comment fa-thumbs-up"></i> 5
+                <i class="fas icon-comment fa-thumbs-down"></i> 3
+                <span class="icon-comment"> Reply </span>
+              </div>
             </li>
+
             <li>
-              <img
-                class="header"
-                src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-              />Nice ending!!<i class="fas fa-thumbs-up"></i
-              ><i class="fas fa-thumbs-down"></i>
+              <span>
+                <img
+                  class="comment-user-photo"
+                  src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
+                />
+              </span>
+              <span>User3</span>
+
+              <div class="comment-text">
+                <p>
+                  It is Incredible!! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Ratione, officiis dolorum.
+                </p>
+                <i class="fas icon-comment fa-thumbs-up"></i> 5
+                <i class="fas icon-comment fa-thumbs-down"></i> 3
+                <span class="icon-comment"> Reply </span>
+              </div>
             </li>
           </ul>
         </div>
