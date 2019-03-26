@@ -11,6 +11,12 @@
   grid-gap: 20px;
   height: 100vh;
 }
+.icon {
+  margin: 5px 20px;
+}
+.icons {
+  margin: 30px;
+}
 
 @media (max-width: 768px) {
   .container {
@@ -103,8 +109,12 @@ aside p {
 }
 
 .curr_video {
-  /* padding: 30px 10px 10px 20px; */
   width: 90%;
+}
+
+.video_main {
+  width: 700px;
+  height: 480px;
 }
 
 /* .side_bar {
