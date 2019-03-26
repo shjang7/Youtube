@@ -52,26 +52,24 @@ header {
   background-color: white;
   overflow: hidden;
   z-index: 5;
-  height: 30px;
+  height: 40px;
 
   grid-area: header;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 5px;
 }
 
 .search_input {
-  border: none;
-  padding: 6px;
-  font-size: 17px;
+  width: 400px;
+  font-size: 120%;
 }
 
 .logo {
   height: 50px;
-  padding: 3px;
+  padding: 3px 40px 3px 10px;
+  margin-left: 40px;
 }
 
 .header {
@@ -92,12 +90,13 @@ header {
 .comment-text {
 }
 
-#comment-input {
+.input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
   align-items: center;
+  font-size: 120%;
 }
 
 #comment-input :focus {
