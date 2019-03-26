@@ -16,8 +16,6 @@
     <title>YouTube</title>
   </head>
   <body>
-    <nav class="nav_bar"></nav>
-
     <div class="container">
       <header>
         <div class="logo_icon">
@@ -40,8 +38,9 @@
       </header>
 
       <main>
-        <div class="curr_video">
-          <iframe class="video_main"
+        <div>
+          <iframe
+            class="video_main"
             src="https://www.youtube.com/embed/11HAYIYp_74"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -50,7 +49,7 @@
         </div>
 
         <div>
-          <h3>Video Title!!!</h3>
+          <h3>How they can play piano challenge as piano major students!!</h3>
           <p>32,312 Views</p>
         </div>
 
@@ -60,7 +59,7 @@
           <img
             class="header"
             src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-            alt=""
+            alt="author"
           />
           <p>Game Of Microverse</p>
           <p>Published on March 25, 2019</p>
@@ -71,14 +70,15 @@
           <p>More ...</p>
         </div>
 
+        <hr />
+
         <div>
           <h4>Comments</h4>
-
-          <form action="">
+          <form>
             <input
+              id="comment"
               type="text"
               placeholder="Add a public comment.."
-              style="width:100%; align-items: center"
             />
             <button>cancel</button>
             <button>comment</button>
@@ -86,12 +86,22 @@
 
           <ul>
             <li>
-              <img
-                class="header"
-                src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-              />
-              It is awsome!!<i class="fas fa-thumbs-up"></i
-              ><i class="fas fa-thumbs-down"></i>
+              <span>
+                <img
+                  class="header"
+                  src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
+                />
+              </span>
+              <span>User1</span>
+
+              <div class="comment-text">
+                <p>
+                  It is awsome!! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Ratione, officiis dolorum.
+                </p>
+                <i class="fas icon-comment fa-thumbs-up"></i> 5
+                <i class="fas icon-comment fa-thumbs-down"></i> 3 Reply
+              </div>
             </li>
             <li>
               <img
