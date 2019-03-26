@@ -83,11 +83,6 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.comment-image {
-}
-
-.comment-text {
-}
 .icons_m {
   padding-left: 100px;
   width: 300px;
@@ -100,7 +95,7 @@ header {
 }
 
 .input {
-  width: 100%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid #ccc;
