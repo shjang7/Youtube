@@ -38,11 +38,6 @@
       minmax(75px, auto) /* Sidebar */
       auto; /* Footer */
   }
-
-  nav,
-  aside {
-    margin: 0;
-  }
 }
 
 header {
@@ -64,6 +59,10 @@ header {
 .search_input {
   width: 400px;
   font-size: 120%;
+  border: 1px solid #ccc;
+}
+.search_button {
+  margin: 3px 5px;
 }
 
 .logo {
@@ -88,6 +87,16 @@ header {
 }
 
 .comment-text {
+}
+.icons_m {
+  padding-left: 100px;
+  width: 300px;
+}
+
+.icon_m {
+  margin: auto 10px;
+  width: 40px;
+  heigh: 40px;
 }
 
 .input {
