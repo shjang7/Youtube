@@ -123,6 +123,7 @@ aside {
 }
 
 aside p {
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -132,11 +133,15 @@ aside p {
   height: 378px;
 }
 
+.subletter {
+  color : grey;
+}
 .recommand-video-image {
   float: left;
 }
 
 .recommand-video-text {
+  width: 150px;
   float: right;
 }
 
