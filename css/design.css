@@ -109,15 +109,16 @@ p {
 }
 
 .curr_coment {
-  width: 100%;
+  /* width: 100%; */
   height: 100px;
-/*  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-row: auto auto;*/
+  /* display: grid; */
+  /* grid-template-columns: auto auto; */
+  /* grid-template-row: auto auto; */
+  /* border: 2px blue solid; */
 }
 
 .curr_coment input {
-  width: 90%;
+  width: 93%;
   padding: 6px 20px;
   border: 1px solid #ccc;
   align-items: center;
@@ -142,7 +143,6 @@ p {
   margin: 10px;
 }
 .comments_others .grid_2 .image {
-  grid-row: 1/3;
 }
 
 .view .subletter .icons {
