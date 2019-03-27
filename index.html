@@ -18,7 +18,9 @@
   <body>
     <div class="container">
       <header>
-        <div class="icon">
+
+        <i class="subletter menu-icon fa-lg fas fa-bars"></i>
+        <div>
           <img class="logo" src="assets/logo.png" alt="YouTube" />
         </div>
 
@@ -30,15 +32,16 @@
               placeholder="Search ..."
               size="80"
             />
-            <button> <i class="search_button fg-lg fas fa-search"></i> </button>
+            <button><i class="search_button fg-lg fas fa-search"></i></button>
           </form>
         </div>
 
         <div class="icons">
-          <i class="icon fa-lg fas fa-video"></i>
-          <i class="icon fa-lg fas fa-share-square"></i>
-          <i class="icon fa-lg fas fa-bell"></i>
-          <i class="icon fa-lg fas fa-user-circle"></i>
+          <i class="subletter icon fa-lg fas fa-video"></i>
+          <i class="subletter icon fa-lg fas fa-th"></i>
+          <i class="subletter icon fa-lg fas fa-share-square"></i>
+          <i class="subletter icon fa-lg fas fa-bell"></i>
+          <i class="subletter icon fa-lg fas fa-user-circle"></i>
         </div>
       </header>
 
@@ -58,11 +61,13 @@
           <p class="subletter">
             <span>32,312 Views</span>
 
-            <span class="icons_m"><img class="icon_m" src="./assets/thumb_up_icon.png"/>9.2K
-            <img class="icon_m" src="./assets/thumb_down_icon.png"/>123
-            <img class="icon_m" src="./assets/share_icon.png"/>SHARE
-            <img class="icon_m" src="./assets/save_icon.png"/>SAVE
-            <img class="icon_m" src="./assets/list_icon.png"/></span>
+            <span class="icons_m"
+              ><img class="icon_m" src="./assets/thumb_up_icon.png"/>9.2K
+              <img class="icon_m" src="./assets/thumb_down_icon.png"/>123
+              <img class="icon_m" src="./assets/share_icon.png"/>SHARE
+              <img class="icon_m" src="./assets/save_icon.png"/>SAVE
+              <img class="icon_m" src="./assets/list_icon.png"
+            /></span>
           </p>
         </div>
 
@@ -80,7 +85,7 @@
           <div class="text">
             <b>Game Of Microverse</b>
             <p class="subletter">Published on March 25, 2019</p>
-            <p>The slow music is also quiet challengeable! </p>
+            <p>The slow music is also quiet challengeable!</p>
             <p class="subletter">More ...</p>
           </div>
           <div class="subscribe">
@@ -98,36 +103,76 @@
               type="text"
               placeholder="Add a public comment.."
             />
-            <button>cancel</button>
-            <button>comment</button>
+            <button class="myButton">cancel</button>
+            <button class="myButton">comment</button>
           </form>
 
           <div class="comments_others">
             <div class="grid_2">
               <div class="image">
-                <img
-                  class="user-photo"
-                  src="http://www.mpp.govt.nz/themes/mpp/images/profile_placeholder.jpg"
-                />
+                <img class="user-photo" src="./assets/comment_1.png" />
               </div>
               <div class="text">
-              <span>User1</span>
+                <span>Jacky Hu</span>
 
+                <div class="text">
+                  <p>
+                    It is awsome!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 50 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 1 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_2">
+              <div class="image">
+                <img class="user-photo" src="./assets/comment_2.png" />
+              </div>
               <div class="text">
-                <p>
-                  It is awsome!! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ratione, officiis dolorum.
-                </p>
-                <i class="subletter fas icon-comment fa-thumbs-up"></i>
-                <span class="subletter"> 50 </span>
-                <i class="subletter fas icon-comment fa-thumbs-down"></i>
-                <span class="subletter"> 1 </span>
-                <span class="subletter icon-comment"> Reply </span>
+                <span>Seong</span>
+
+                <div class="text">
+                  <p>
+                    It is incredible!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 34 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 9 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_2">
+              <div class="image">
+                <img class="user-photo" src="./assets/comment_3.png" />
+              </div>
+              <div class="text">
+                <span>Kelvin</span>
+
+                <div class="text">
+                  <p>
+                    It is enjoyable!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 21 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 12 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div><!--comments-->
+        <!--comments-->
       </main>
 
       <aside>
