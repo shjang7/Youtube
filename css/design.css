@@ -1,8 +1,6 @@
 .container {
   display: grid;
-
   border: 2px blue solid;
-
   grid-template-areas:
     "header header header"
     "nav content side"
@@ -11,7 +9,7 @@
   grid-template-columns: 50px 1fr 450px;
   grid-template-rows: auto 1fr auto;
   grid-gap: 20px;
-  height: 100vh;
+  height: auto;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -42,21 +40,39 @@ header {
   position: sticky;
   background-color: white;
   overflow: hidden;
-  z-index: 5;
   height: 40px;
 
   grid-area: header;
-  display: flex;
+  display: grid;/*flex
   justify-content: space-between;
-  align-items: center;
+  align-items: center;*/
+  grid-template-columns: 35px 150px 650px 430px;
   padding-top: 5px;
   border: 2px blue solid;
 }
 
+header .menu {
+  padding: 5px;
+  border: 2px blue solid;
+}
+
+header .logo {
+  height: 20px;
+  padding: 2px 5px;
+  border: 2px blue solid;
+}
+header .search_box {
+  width: auto;
+  align: center;
+  border: 2px blue solid;
+}
 header .search_input {
-  width: 400px;
+  width: 550px;
   font-size: 120%;
   border: 1px solid #ccc;
+}
+header .search_input:focus {
+  border: 3px solid #555;
 }
 header .search_button {
   height: 8px;
@@ -65,19 +81,11 @@ header .search_button {
   font-size: 150%;
 }
 
-header .logo {
-  height: 50px;
-  padding: 3px 20px 3px 0px;
+header .icons {
+  width: 330px;
   border: 2px blue solid;
 }
 
-header .icons {
-  width: 330px;
-}
-
-header .menu-icon {
-  width: 10px !important;
-}
 .user-photo {
   border-radius: 20px;
   width: 40px;
@@ -108,7 +116,10 @@ p {
 .author .subscribe {
   border: 3px blue solid;
 }
-
+.grid_2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
 .comments_others .grid_2 {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -187,23 +198,32 @@ aside p {
   color: grey;
 }
 
-.recommand-grid-containter {
-  display: inline-grid;
-  grid-template-columns: auto;
+.recommand {
+  display: grid;
+  /*grid-template-columns: auto;
+  grid-template-rows: auto;*/
 }
 
-.recommand-grid-item {
+/*
+.recommand  {
+  display: grid;
+  grid-template-columns: auto auto;
   padding: 20px;
-}
-.recommand-video-image {
-  float: left;
+  border: 2px blue solid;
+}*/
+.recommand .grid_2
+.recommand .grid_2 .image {
+  /*float: left;*/
+  wid
+  border: 2px blue solid;
 }
 
-.recommand-video-text {
-  margin-left: 5px;
+.recommand .grid_2 .text {
+  /*margin-left: 5px;*/
   width: 230px;
   height: 96px;
-  float: right;
+  /*float: right;*/
+  border: 2px blue solid;
 }
 
 .recommand-video-text p {
