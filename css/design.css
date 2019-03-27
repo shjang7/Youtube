@@ -109,12 +109,7 @@ p {
 }
 
 .curr_coment {
-  /* width: 100%; */
   height: 100px;
-  /* display: grid; */
-  /* grid-template-columns: auto auto; */
-  /* grid-template-row: auto auto; */
-  /* border: 2px blue solid; */
 }
 
 .curr_coment input {
@@ -141,8 +136,6 @@ p {
 
 .comments_others .grid_2 {
   margin: 10px;
-}
-.comments_others .grid_2 .image {
 }
 
 .view .subletter .icons {
