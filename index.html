@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=
-  , initial-scale=1.0"
-    />
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link
@@ -17,63 +13,330 @@
     />
 
     <link rel="stylesheet" href="css/design.css" type="text/css" />
-
-    <script src="js/javascript.js" type="text/javascript"></script>
     <title>YouTube</title>
   </head>
   <body>
-    <!-- Nav Bar Section -->
-    <nav class="navbar">
-      <div>
-        <img class="logo" src="assets/logo.png" alt="YouTube" />
-      </div>
+    <div class="container">
+      <header>
+        <div class="menu">
+          <i class="subletter fa-lg fas fa-bars"></i>
+        </div>
 
-      <div>
-        <input type="text" placeholder="Search ..." />
-        <button>Search</button>
-      </div>
+        <div class="logo">
+          <img class="logo" src="assets/logo.png" alt="YouTube" />
+        </div>
 
-      <div>
-        <i class="fas fa-video"></i>
-        <i class="fas fa-share-square"></i>
-        <i class="fas fa-bell"></i>
-        <i class="fas fa-user-circle"></i>
-      </div>
-    </nav>
+        <div class="search_box">
+          <form>
+            <input
+              class="search_input"
+              type="text"
+              placeholder="Search ..."
+              size="80"
+            />
+            <button><i class="search_button fg-lg fas fa-search"></i></button>
+          </form>
+        </div>
 
-    <table>
-      <td>
-        <!-- left side -->
-        <tr>
+        <div class="icons">
+          <i class="subletter icon fa-lg fas fa-video"></i>
+          <i class="subletter icon fa-lg fas fa-th"></i>
+          <i class="subletter icon fa-lg fas fa-share-square"></i>
+          <i class="subletter icon fa-lg fas fa-bell"></i>
+          <i class="subletter icon fa-lg fas fa-user-circle"></i>
+        </div>
+      </header>
+
+      <main>
+        <div>
           <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            class="video_main"
+            src="https://www.youtube.com/embed/11HAYIYp_74"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <br />
-        </tr>
+        </div>
 
-        <tr>
-          Comments
-          <input type="text" placeholder="Add a public comment.." />
-        </tr>
-        <tr>
-          <button>cancel</button>
-          <button>comment</button>
-        </tr>
-        <!-- -->
-      </td>
+        <div class="view">
+          <h3>What is challengeable music for piano major students!!</h3>
+          <p class="subletter">
+            <span>32,312 Views</span>
 
-      <td>
-        <!-- right side -->
-        <tr>
-          <!--first sidebar vedio-->
-          Sidebar
-        </tr>
-      </td>
-    </table>
+            <span class="icons">
+              <img class="icon" src="./assets/thumb_up_icon.png"/>9.2K
+              <img class="icon" src="./assets/thumb_down_icon.png"/>123
+              <img class="icon" src="./assets/share_icon.png"/>SHARE
+              <img class="icon" src="./assets/save_icon.png"/>SAVE
+              <img class="icon" src="./assets/list_icon.png"/>
+            </span>
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="author">
+          <div class="image">
+            <img
+              class="user-photo"
+              src="./assets/author_photo.png"
+              alt="author"
+            />
+          </div>
+
+          <div class="text">
+            <b>Game Of Microverse</b>
+            <p class="subletter">Published on March 25, 2019</p>
+            <p>The slow music is also quiet challengeable!</p>
+            <p class="subletter">More ...</p>
+          </div>
+          <div class="subscribe">
+            <img src="assets/subscribe_icon.png" />
+          </div>
+        </div>
+        <hr />
+
+        <!-- Comment Section -->
+      <div> 
+          <h4>Comments</h4>  
+        <div class="grid_2 curr_coment">
+            
+
+            <div class="image ">
+                <img class="user-photo" src="./assets/curr_user_photo.png" />
+            </div>
+           
+              <div class="text">  
+                         
+                <form>
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Add a public comment.."
+                  />
+                  <button class="myButton">cancel</button>
+                  <button class="myButton">comment</button>
+                </form>
+              </div>
+        </div>
+
+          
+
+          <div class="comments_others">
+            <div class="grid_2">
+              <div class="image">
+                <img class="user-photo" src="./assets/comment_1.png" />
+              </div>
+              <div class="text">
+                <span>Jacky Hu</span>
+
+                <div >
+                  <p>
+                    It is awsome!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 50 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 1 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_2">
+              <div class="image">
+                <img class="user-photo" src="./assets/comment_2.png" />
+              </div>
+              <div class="text">
+                <span>Seong</span>
+
+                <div >
+                  <p>
+                    It is incredible!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 34 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 9 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_2">
+              <div class="image">
+                <img class="user-photo" src="./assets/comment_3.png" />
+              </div>
+              <div class="text">
+                <span>Kelvin</span>
+
+                <div >
+                  <p>
+                    It is enjoyable!! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ratione, officiis dolorum.
+                  </p>
+                  <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                  <span class="subletter"> 21 </span>
+                  <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                  <span class="subletter"> 12 </span>
+                  <span class="subletter icon-comment"> Reply </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_2">
+                <div class="image">
+                  <img class="user-photo" src="./assets/comment_4.jpg" />
+                </div>
+                <div class="text">
+                  <span>Andy Lau</span>
+
+                  <div >
+                    <p>
+                        Hu.. My major is also piano, I think the chopin is really awsome musician but very hard..
+                    </p>
+                    <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                    <span class="subletter"> 21 </span>
+                    <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                    <span class="subletter"> 12 </span>
+                    <span class="subletter icon-comment"> Reply </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid_2">
+                <div class="image">
+                  <img class="user-photo" src="./assets/comment_5.jpg" />
+                </div>
+                <div class="text">
+                  <span>Celi Zhang</span>
+
+                  <div >
+                    <p>
+                      How fast their playing! I couldn't play like them.. 
+                    </p>
+                    <i class="subletter fas icon-comment fa-thumbs-up"></i>
+                    <span class="subletter"> 21 </span>
+                    <i class="subletter fas icon-comment fa-thumbs-down"></i>
+                    <span class="subletter"> 12 </span>
+                    <span class="subletter icon-comment"> Reply </span>
+                  </div>
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+        <!--comments-->
+      </main>
+
+      <aside>
+        <p>
+          Up next
+        </p>
+        <div class="recommand">
+          <div class="grid_2">
+            <div class="image">
+              <!--first sidebar vedio-->
+              <a href="https://www.youtube.com/watch?v=Yp24C28xDMc">
+                <img src="./assets/Elina.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p><b>Elina Nechayeva - Der Hˆlle Rache - Mozart </b></p>
+              <p class="subletter">Elina Netöajeva</p>
+              <p class="subletter">22,680 views</p>
+            </div>
+          </div>
+
+          <hr/>
+
+          <div class="grid_2">
+            <div class="image">
+              <a href="https://www.youtube.com/watch?v=aNMlq-hOIoc">
+                <img src="./assets/Sungjin.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p>
+                <b>
+                  Seong-jin Cho / Rachmaninoff:Piano Concerto No. 2 in C minor,
+                  OP. 18 (12DEC.2018)
+                </b>
+              </p>
+              <p class="subletter">Ren yu</p>
+              <p class="subletter">614,417 views</p>
+            </div>
+          </div>
+
+          <div class="grid_2">
+            <div class="image">
+              <a href="https://www.youtube.com/watch?v=Hpi0Lvu1INo">
+                <img src="./assets/Yuja.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p>
+                <b>Yuja Wang plays Scriabin's Sonata No.2 (2013, Japan) </b>
+              </p>
+              <p class="subletter">pseudopoison</p>
+              <p class="subletter">1,344 views</p>
+            </div>
+          </div>
+
+          <div class="grid_2">
+            <div class="image">
+              <a href="https://www.youtube.com/watch?v=vU-MLVL8tMw">
+                <img src="./assets/Yeouleom.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p>
+                <b>Chopin nocturne op27-2(Yeol Eum Son) </b>
+              </p>
+              <p class="subletter">Classical forest</p>
+              <p class="subletter">781,620 views</p>
+            </div>
+          </div>
+
+          <div class="grid_2">
+            <div class="image">
+              <a href="https://www.youtube.com/watch?v=abdUjh6yo8E">
+                <img src="./assets/Yuja2.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p>
+                <b>
+                  Yuja Wang plays Tritsch-Tratsch Polka
+                </b>
+              </p>
+              <p class="subletter">MrOsomatsu</p>
+              <p class="subletter">483,619 views</p>
+            </div>
+          </div>
+
+          <div class="grid_2">
+            <div class="image">
+              <a href="https://www.youtube.com/watch?v=PbIX8zY17Z4">
+                <img src="./assets/Yev.png" />
+              </a>
+            </div>
+            <div class="text">
+              <p>
+                <b>
+                  Evgeny Kissin plays Rachmaninoff's Piano Concert No. 2
+                </b>
+              </p>
+              <p class="subletter">Frank-Dieter Tannenweber</p>
+              <p class="subletter">1,466,954 views</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
   </body>
 </html>
