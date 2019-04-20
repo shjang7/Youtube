@@ -4,5 +4,5 @@
 - Collaborator : [shjang7](https://github.com/shjang7), [kelvin8773](https://github.com/kelvin8773) <br />
 - Used skills : Grouping elements, Insert video with embedding, Insert thumb up images <br />
 - language : html/css <br />
-- Original url : [Original youtube link](https://www.youtube.com/watch?v=fIbfdeJaSVg) <br />
-- Demo version : [Follow this link](https://shjang7.github.io/youtube/)
+- Original url : [Original youtube webpage](https://www.youtube.com/watch?v=fIbfdeJaSVg) <br />
+- Demo version : [Demo version webpage](https://shjang7.github.io/youtube/)
